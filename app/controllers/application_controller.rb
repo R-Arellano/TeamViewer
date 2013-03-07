@@ -4,4 +4,9 @@ class ApplicationController < ActionController::Base
   def CheckName
   	puts "Your CheckName"
   end
+
+  def getTeam
+  	puts "This will get the team."
+  end
+
 end
